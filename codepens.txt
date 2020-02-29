@@ -1,0 +1,18 @@
+Tribute Page
+https://codepen.io/garricode/full/qBdRyoe
+https://garricode.github.io/tribute-page-picasso/
+
+Survey Form
+https://codepen.io/garricode/full/poJezWy
+https://garricode.github.io/survey-form-gamer-profile/
+
+Landing Product Page
+https://codepen.io/garricode/full/NWqpoMK
+https://garricode.github.io/product-landing-page-productivity/
+
+Technical Documentation Page
+https://codepen.io/garricode/full/yLNMWOL
+https://garricode.github.io/technical-documentation-page/
+
+Personal Portoflio Webpage
+https://codepen.io/garricode/full/OJVmjgg
