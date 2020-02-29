@@ -25,7 +25,7 @@ font-family: 'Open Sans', ; For other texts elements
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background:  #ad5700;
+  background: #ad5700;
 }
 
 body {
@@ -66,44 +66,57 @@ nav li a.active {
   background: -webkit-linear-gradient(top, #3f4c6b 0%, #3f4c6b 100%);
   background: linear-gradient(to bottom, #3f4c6b 0%, #3f4c6b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 );
+  padding-top: 25%;
 }
 
 #welcome-section h1 {
   text-align: center;
-  padding-top: 25%;
+  font-weight: bolder;
 }
 
 #about {
   background: #0055ad;
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
-#about h2 {
+#about h1,
+h2 {
+  text-align: center;
   font-size: 2rem;
   color: #fcfcfc;
+  padding-bottom: 1%;
+  font-weight: bolder;
 }
 
 #projects {
   background: #0055ad;
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #projects h1 {
   text-align: center;
   color: #fcfcfc;
+  font-weight: bolder;
   font-size: 2rem;
+  padding-bottom: 1%;
 }
 
 #contact {
   background: #00acad;
   text-align: center;
   width: 100%;
-  height: 50vh;
   color: #fcfcfc;
-  font-size: 4rem;
-  padding-top: 5%;
+  font-size: xx-large;
+  height: 50vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#contact h1 {
+  text-align: center;
+  font-weight: bolder;
 }
