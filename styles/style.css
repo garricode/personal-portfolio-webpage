@@ -69,7 +69,7 @@ nav li a.active {
   padding-top: 25%;
 }
 
-#welcome-section h2 {
+#welcome-section h1 {
   text-align: center;
   font-weight: bolder;
 }
@@ -81,8 +81,8 @@ nav li a.active {
   padding-bottom: 10%;
 }
 
-#about h2,
-h3 {
+#about h1,
+h2 {
   text-align: center;
   font-size: 2rem;
   color: #fcfcfc;
@@ -97,8 +97,8 @@ h3 {
   padding-bottom: 10%;
 }
 
-#projects h2,
-h3 {
+#projects h1,
+h2 {
   text-align: center;
   color: #fcfcfc;
   font-weight: bolder;
@@ -117,7 +117,7 @@ h3 {
   padding-bottom: 10%;
 }
 
-#contact h2 {
+#contact h1 {
   text-align: center;
   font-weight: bolder;
 }
