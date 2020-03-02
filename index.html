@@ -25,30 +25,43 @@
 
 
     <header id="header" class="container-fluid d-flex flex-wrap flex-column bd-highlight mb-3">
-        <h1>Rafael Garrigos</h1>
         <!-- When pasting code on CodePen, move everything from the header element to Head section on the settings -->
-        <nav id="navbar" class="navbar fixed-top navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+            <a class="navbar-brand" href="#">
+                <header>
+                    <h1>RG</h1>
+                </header>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
                     </li>
+
                 </ul>
             </div>
         </nav>
+
+
+
+
+
+
 
     </header>
 
@@ -82,9 +95,9 @@
                             <ul class="list-group list-group list-group-flush">
                                 <li class="list-group-item">Bilingual - Spanish</li>
                                 <li class="list-group-item">Communication</li>
-                                <li class="list-group-item">Teamwork</li>
+                                <li class="list-group-item">Problem-Solving</li>
                                 <li class="list-group-item">Creative Writing</li>
-                                <li class="list-group-item">Media and Computer Literacy</li>
+                                <li class="list-group-item">Critical Thinking</li>
                             </ul>
                         </div>
                     </div>
@@ -187,6 +200,19 @@
                     through
                     <a href="https://codepen.io/garricode" target="_blank">CodePen</a>.</p>
                 <p class="lead">Thank you!</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Join to my newsletter</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-light">I'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <input class="btn btn-primary btn-lg" type="submit" value="Submit">
+                </form>
+
+
             </section>
         </article>
 
